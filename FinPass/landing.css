@@ -2,8 +2,9 @@
     background-color: #0c0b20;
     margin: 0px;
     font-weight: bold;
-    font-family: "Inconsolata", sans-serif;
+    /* font-family: "Inconsolata", sans-serif; */
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     display: flex;
@@ -22,4 +23,61 @@ header * {
 }
 .logo {
     font-size: 26px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: #e3e3e3;
+    border-radius: 8px;
+    min-height: 50px;
+    min-width: 100px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(217, 217, 217);
+}
+
+.description {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 300;
+    font-size: larger;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
 }
