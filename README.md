@@ -1,4 +1,4 @@
-# FinPass: A Game-Based Approach to Financial Literacy
+# FinPass: A Game-Based Approach to
 
 ## Overview
 
